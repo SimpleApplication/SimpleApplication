@@ -1,6 +1,6 @@
 sudo apt update && sudo apt install nodejs npm
 sudo npm install -g pm2
-pm2 stop example_app
-cd ExampleApplication/
+pm2 stop SimpleApplication
+cd SimpleApplication/
 npm install
-pm2 start ./bin/www --name example_app
+pm2 start ./bin/www --name SimpleApplication
